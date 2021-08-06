@@ -10,9 +10,9 @@ You should be able to use any release defined under https://cloud-images.ubuntu.
 
 Examples:
 
-    python ubuntu_cagrant_box_catalog.py https://cloud-images.ubuntu.com/releases/focal/ > focal.json
-    python ubuntu_cagrant_box_catalog.py https://cloud-images.ubuntu.com/releases/bionic/ > bionic.json
-    python ubuntu_cagrant_box_catalog.py https://cloud-images.ubuntu.com/releases/xenial/ > xenial.json
+    python ubuntu_vagrant_box_catalog.py https://cloud-images.ubuntu.com/releases/focal/ > focal.json
+    python ubuntu_vagrant_box_catalog.py https://cloud-images.ubuntu.com/releases/bionic/ > bionic.json
+    python ubuntu_vagrant_box_catalog.py https://cloud-images.ubuntu.com/releases/xenial/ > xenial.json
 
 Upload the JSON files somewhere (e.g. S3), and then you can setup vagrant to use it:
 
